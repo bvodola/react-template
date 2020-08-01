@@ -1,14 +1,8 @@
-import React from 'react'
+import React from "react";
+import Slider from "react-input-slider";
 
-class App extends React.Component {
-
-  render() {
-    return (
-      <div className="App">
-        App
-      </div>
-    );
-  }
-}
+const App = () => {
+  return <div className="App">App</div>;
+};
 
 export default App;
