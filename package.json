@@ -5,9 +5,9 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "start": "webpack-dev-server --config ./config/webpack.config.js",
+    "dev": "webpack-dev-server --config ./config/webpack.config.js",
     "build": "webpack --config ./config/webpack.config.js",
-    "build:prod": "webpack --config ./config/webpack.config.prod.js"
+    "start": "webpack --config ./config/webpack.config.prod.js"
   },
   "dependencies": {
     "path": "^0.12.7",
